@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/stock")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://simple-portfolio-tracker-one.vercel.app")
 public class StockController {
     @Autowired
     private StockService stockService;

@@ -12,7 +12,7 @@ import jakarta.annotation.security.PermitAll;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://simple-portfolio-tracker-one.vercel.app")
 @PermitAll
 public class AuthController {
 
